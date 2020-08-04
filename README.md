@@ -4,27 +4,15 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
-## Installation
-
-Add this line to your application's Gemfile:
+## Instalation & Usage
 
 ```ruby
-gem 'space_travel_calculator'
-```
+# cd into a gem directory
+rake install
 
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install space_travel_calculator
-
-## Usage
-
-```
 require 'space_travel_calculator'
-iSpaceTravelCalculator.fuel(28801, [[:launch,9.807], [:land,1.62], [:launch,1.62], [:land,9.807]])
+
+SpaceTravelCalculator.fuel(28801, [[:launch,9.807], [:land,1.62], [:launch,1.62], [:land,9.807]])
 => 51898
 
 ```
